@@ -1,4 +1,4 @@
-esource "aws_s3_bucket" "wirfoncloud-bucket" {
+Resource "aws_s3_bucket" "wirfoncloud-bucket" {
   bucket = "my-tf-test-bucket"
 
   tags = {
